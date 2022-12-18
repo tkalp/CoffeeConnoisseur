@@ -14,6 +14,7 @@ export async function getStaticProps(context) {
   };
 }
 
+
 export default function Home(props) {
   const buttonClick = () => {
     console.log("hello");
